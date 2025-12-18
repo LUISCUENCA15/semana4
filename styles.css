@@ -1,0 +1,6 @@
+.btn-primary { background-color: #ff5733; border-color: #ff5733; transition: all 0.3s ease; }
+.btn-primary:hover { transform: scale(1.05); box-shadow: 0 5px 15px rgba(255,87,51,0.4); }
+.card { border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+@media (max-width: 768px) { .btn-primary { background-color: #28a745; } }
+.navbar-brand { animation: fadeIn 1s ease-in; }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
